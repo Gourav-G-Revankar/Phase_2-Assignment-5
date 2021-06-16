@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+table {
+    width: 500px;
+    height: 500px;
+    margin: 25px auto;
+}
+
+table,
+th,
+td {
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+
+.white {
+    background: #fff;
+}
+
+.black {
+    background: #000000;
+}
+
+@media screen and (max-width: 550px) {
+    table {
+        width: 300px;
+        height: 300px;
+        margin: 10px auto;
+    }
+    
+    h1 {
+        font-size: 35px;
+        margin-top: 50px;
+    }
+}
